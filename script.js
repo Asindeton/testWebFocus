@@ -78,11 +78,11 @@ const mainDirectionCardArr =[
     },
 ]
 const mainDirectionSliderArr = [
-    {'img':"./assets/img/Rectangle 107.png",},
-    {'img':"./assets/img/Rectangle 111.png",},
-    {'img':"./assets/img/Rectangle 110.png",},
-    {'img':"./assets/img/Rectangle 109.png",},
-    {'img':"./assets/img/Rectangle 108.png",},
+    {'img':"./assets/img/Rectangle107.png"},
+    {'img':"./assets/img/Rectangle111.png"},
+    {'img':"./assets/img/Rectangle110.png"},
+    {'img':"./assets/img/Rectangle109.png"},
+    {'img':"./assets/img/Rectangle108.png"},
 ]
 let mainSliderCounter = 0;
 let mainDirectionSliderCounter = 0;
@@ -115,16 +115,27 @@ document.querySelector('.to-right').addEventListener('click', function(){
     mainSliderCounter == 4?mainSliderCounter=0:mainSliderCounter++
     setSlider(mainSliderArr)
 })
+document.querySelector('.main-direction-slider__to-left').addEventListener('click', function(){
+    mainDirectionSliderCounter == 0?mainDirectionSliderCounter=4:mainDirectionSliderCounter--
+    mainDirectionSlider(mainDirectionSliderArr)
+})
+document.querySelector('.main-direction-slider__to-right').addEventListener('click', function(){
+    mainDirectionSliderCounter == 4?mainDirectionSliderCounter=0:mainDirectionSliderCounter++
+    mainDirectionSlider(mainDirectionSliderArr)
+})
+
 window.onload = function(){
     for(let i = 0; i<9; i++){
         document.querySelector('.main-direction__card-wrapper').insertAdjacentHTML('beforeend', drawDirectionCars(mainDirectionCardArr, i))
     }
 }
-function mainDirectionSlider(arr){
+function mainDirectionSlider(arr, auto){
     console.log(mainDirectionSliderCounter)
     document.querySelector('.main-direction-slider__content').style.background = `url(${arr[mainDirectionSliderCounter].img})`    
-    mainDirectionSliderCounter ==4?mainDirectionSliderCounter=0:mainDirectionSliderCounter++
+    if(auto){
+        mainDirectionSliderCounter ==4?mainDirectionSliderCounter=0:mainDirectionSliderCounter++
+    }
 }
 setSlider(mainSliderArr)
 setInterval(setSlider, 10000, mainSliderArr, true)
-setInterval(mainDirectionSlider, 12000, mainDirectionSliderArr)
+setInterval(mainDirectionSlider, 10000, mainDirectionSliderArr, true)
