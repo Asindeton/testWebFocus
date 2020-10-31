@@ -14,7 +14,7 @@
   <title>WebFocusTest</title>
 </head>
 <body>
-  <header>
+  <header id="header">
     <div class="heder wrapper">
       <div class="upper-string flex-row">
         <div class="heder-lang flex-row"><span class="sub-title-2">Язык </span><span class="sub-title-2 lang">русский</span><img src="./assets/svg/lang-arrow.svg" alt="" style="width: 10px; height: 10px;"></div>
@@ -38,12 +38,12 @@
         <img src="./assets/svg/Logo.svg" alt="logo">
         <nav class="nav">
           <div class="flex-row">
-            <div class="caption"><a href="">Главная</a></div>
-            <div class="caption"><a href="">О нас</a></div>
-            <div class="caption"><a href="">Услуги</a></div>
-            <div class="caption"><a href="">Тарифы</a></div>
-            <div class="caption"><a href="">Инфоцентр</a></div>
-            <div class="caption"><a href="">Контакты</a></div>
+            <div class="caption"><a href="header">Главная</a></div>
+            <div class="caption"><a href="#introduction">О нас</a></div>
+            <div class="caption"><a href="#sixth-section">Услуги</a></div>
+            <div class="caption"><a href="#tarif">Тарифы</a></div>
+            <div class="caption"><a href="#eight-section">Инфоцентр</a></div>
+            <div class="caption"><a href="#footer">Контакты</a></div>
             <div><img src="./assets/svg/search.svg" alt="search"></div>
           </div>
         </nav>
@@ -98,7 +98,7 @@
               конфиденциальность</div>
           </div>
         </div>
-        <div class="introduction">
+        <div class="introduction" id="introduction">
          <div class="h2">Юридическое сопровождение бизнеса
           от «МК-Правовые технологии»</div> 
          <div class="introduction-text main-text"><p>Главный принцип нашей работы - качество. Постоянно следовать ему помогает сплоченная команда талантливых и энергичных сотрудников, способных сообща заниматься сложными проектами, никогда не допуская сбоев в работе.</p>
@@ -215,7 +215,7 @@
     </section>
     <section class="fifth-section">
     </section>
-    <section class="sixth-section">
+    <section class="sixth-section" id="sixth-section">
       <div class="wrapper flex-column">
         <div class="h2">Перечень оказываемых услуг</div>
         <div class="card-area flex-column">
@@ -351,7 +351,7 @@
         </div>
       </div>
     </section>
-    <section class="eight-section">
+    <section class="eight-section" id="eight-section">
       <div class="wrapper flex-column">
         <div class="flex-column" style="width: 100%; height: 610px; margin-top: 80px;">
           <div class="h2">Наши преимущества</div>
@@ -410,7 +410,7 @@
           </div>
         </div>
         <div class="flex-column cost">
-          <div class="h2">Стоимость юридических услуг в Минске</div>
+          <div class="h2" id="tarif">Стоимость юридических услуг в Минске</div>
           <div class="main-text">Стоимость услуг формируется согласно тарифам, установленным в компании и в зависимости от времени, затраченного юристом на разрешение возникшей ситуации. Принцип прозрачности делает наши цены обоснованными и понятными для клиента.</div>
           <div>
             <a href="">
@@ -421,7 +421,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer flex-column">
+  <footer class="footer flex-column" id="footer">
     <div class="footer-content wrapper flex-row">
       <div class="flex-column corporation-info">
         <div class="h5">ООО “МК-ПРАВОВЫЕ ТЕХНОЛОГИИ”</div>

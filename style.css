@@ -148,6 +148,10 @@
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: unset;
@@ -439,7 +443,6 @@ hr {
 }
 
 .main-direction {
-  height: 640px;
   width: 100%;
 }
 
@@ -1210,5 +1213,22 @@ hr {
           justify-content: center;
   background-color: rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1370px) {
+  section {
+    padding: 0 50px;
+  }
+  .main-direction-slider {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .second-section__card {
+    width: 270px;
+    height: 285px;
+    padding: 20px 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
