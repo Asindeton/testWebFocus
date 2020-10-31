@@ -205,21 +205,85 @@ hr {
           justify-content: space-between;
 }
 
+.nav {
+  width: 739px;
+}
+
+.nav > .flex-row {
+  width: 100%;
+}
+
 .heder {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 150px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
-.upper-string {
-  width: 100%;
-  margin-top: 20px;
+.heder .heder-lang {
+  width: 125px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 
-.button-string {
+.heder .heder-lang > .sub-title-2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+}
+
+.heder .heder-lang > .lang {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+}
+
+.heder .upper-string {
   width: 100%;
+}
+
+.heder .button-string {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.heder .caption {
+  text-transform: uppercase;
+}
+
+.heder .heder-phons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heder .heder-voko {
+  margin-left: 210px;
+}
+
+.heder .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heder .phone > span {
+  margin-right: 15px;
+  margin-left: 14px;
+}
+
+.heder .phone > img {
+  margin-right: 10px;
 }
 
 .first-section {

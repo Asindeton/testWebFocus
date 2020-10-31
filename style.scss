@@ -31,17 +31,60 @@ hr {
   flex-direction: column;
   justify-content: space-between;
 }
+.nav {
+  width: 739px;
+  > .flex-row {
+    width: 100%;
+  }
+}
 .heder {
+  box-sizing: border-box;
   height: 150px;
   flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  .heder-lang {
+    width: 125px;
+    align-items: center;
+    cursor: pointer;
+    > .sub-title-2 {
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: 300;
+    }
+    > .lang {
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: 400;
+    }
+  }
+  .upper-string {
+    width: 100%;
+  }
+  .button-string {
+    align-items: center;
+    width: 100%;
+  }
+  .caption {
+    text-transform: uppercase;
+  }
+  .heder-phons {
+    align-items: center;
+  }
+  .heder-voko {
+    margin-left: 210px;
+  }
+  .phone {
+    display: flex;
+    align-items: center;
+    > span {
+      margin-right: 15px;
+      margin-left: 14px;
+    }
+    > img {
+      margin-right: 10px;
+    }
+  }
 }
-.upper-string {
-  width: 100%;
-  margin-top: 20px;
-}
-.button-string {
-  width: 100%;
-}
+
 .first-section {
   max-width: 100%;
   background-size: cover;

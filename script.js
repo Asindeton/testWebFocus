@@ -137,5 +137,3 @@ function mainDirectionSlider(arr, auto){
     }
 }
 setSlider(mainSliderArr)
-setInterval(setSlider, 10000, mainSliderArr, true)
-setInterval(mainDirectionSlider, 10000, mainDirectionSliderArr, true)
