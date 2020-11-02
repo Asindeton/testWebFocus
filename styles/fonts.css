@@ -6,6 +6,7 @@
   line-height: 50px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h2 {
@@ -16,6 +17,7 @@
   line-height: 40px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h3 {
@@ -26,6 +28,7 @@
   line-height: 40px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h4 {
@@ -36,6 +39,7 @@
   line-height: 45px;
   letter-spacing: 0em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h5 {
@@ -46,6 +50,7 @@
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h6 {
@@ -56,6 +61,7 @@
   line-height: 25px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .sub-title-1 {
@@ -66,6 +72,7 @@
   line-height: 30px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .sub-title-2 {
@@ -76,6 +83,7 @@
   line-height: 25px;
   letter-spacing: 0.02em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .main-text {
@@ -86,6 +94,7 @@
   line-height: 25px;
   letter-spacing: 0em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .secondary-text {
@@ -96,6 +105,7 @@
   line-height: 25px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .additional-text {
@@ -106,6 +116,7 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .btn-mine {
@@ -116,6 +127,7 @@
   line-height: 30px;
   letter-spacing: 0.08em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .btn-additional {
@@ -126,6 +138,7 @@
   line-height: 20px;
   letter-spacing: 0.02em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .caption {
@@ -136,6 +149,7 @@
   line-height: 20px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .overline {
@@ -146,5 +160,6 @@
   line-height: 20px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 /*# sourceMappingURL=fonts.css.map */

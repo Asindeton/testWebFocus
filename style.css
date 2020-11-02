@@ -6,6 +6,7 @@
   line-height: 50px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h2 {
@@ -16,6 +17,7 @@
   line-height: 40px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h3 {
@@ -26,6 +28,7 @@
   line-height: 40px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h4 {
@@ -36,6 +39,7 @@
   line-height: 45px;
   letter-spacing: 0em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h5 {
@@ -46,6 +50,7 @@
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .h6 {
@@ -56,6 +61,7 @@
   line-height: 25px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .sub-title-1 {
@@ -66,6 +72,7 @@
   line-height: 30px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .sub-title-2 {
@@ -76,6 +83,7 @@
   line-height: 25px;
   letter-spacing: 0.02em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .main-text {
@@ -86,6 +94,7 @@
   line-height: 25px;
   letter-spacing: 0em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .secondary-text {
@@ -96,6 +105,7 @@
   line-height: 25px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .additional-text {
@@ -106,6 +116,7 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .btn-mine {
@@ -116,6 +127,7 @@
   line-height: 30px;
   letter-spacing: 0.08em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .btn-additional {
@@ -126,6 +138,7 @@
   line-height: 20px;
   letter-spacing: 0.02em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .caption {
@@ -136,6 +149,7 @@
   line-height: 20px;
   letter-spacing: 0.01em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .overline {
@@ -146,6 +160,7 @@
   line-height: 20px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 html {
@@ -442,12 +457,12 @@ hr {
 .introduction .h2 {
   width: 540px;
   text-align: start;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .introduction .introduction-text {
   width: 470px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
   text-align: start;
   margin-top: 20px;
 }
@@ -464,6 +479,7 @@ hr {
 .main-direction-title {
   text-align: start;
   margin-bottom: 35px;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .main-direction__card {
@@ -543,7 +559,7 @@ hr {
 
 .main-direction-slider__text .main-text {
   text-align: start;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .main-direction-slider__content {
@@ -621,7 +637,7 @@ hr {
 
 .third-section__wrapper .card .main-text {
   text-align: start;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .third-section__wrapper .card .h3 {
@@ -629,7 +645,7 @@ hr {
 }
 
 .third-section__wrapper .card .secondary-text {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .third-section__wrapper .card .btn-additional {
@@ -672,6 +688,7 @@ hr {
 .partners-area__text .main-text {
   text-align: start;
   max-width: 670px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .partners-area__text .btn {
@@ -729,6 +746,7 @@ hr {
 
 .forth-section .main-text {
   text-align: start;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .forth-section .card-row {
@@ -773,6 +791,7 @@ hr {
 
 .sixth-section .main-text {
   text-align: start;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .sixth-section .card-area {
@@ -809,7 +828,6 @@ hr {
 
 .sixth-section .text-area .main-text {
   width: 770px;
-  color: rgba(0, 0, 0, 0.8);
 }
 
 .seventh-section {
@@ -821,7 +839,7 @@ hr {
 }
 
 .seventh-section .main-text {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .seventh-section .wrapper {
@@ -915,6 +933,7 @@ hr {
   height: 160px;
   -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.5);
   background: url("./assets/svg/Rectangle113.svg");
   background-color: white;
   background-position: top right;
@@ -1019,7 +1038,7 @@ hr {
 
 .eight-section .cooperation .secondary-text {
   text-align: start;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .eight-section .cooperation .form-wrapper {
@@ -1032,9 +1051,10 @@ hr {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /* .main-text {
-        color: rgba(0, 0, 0, 0.5);
-      } */
+}
+
+.eight-section .cooperation .form-wrapper .main-text {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .eight-section .cooperation .form-wrapper input {
@@ -1064,8 +1084,9 @@ hr {
 }
 
 .eight-section .cooperation .additional-text a {
-  text-decoration: underline;
   color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 .eight-section .cost {
@@ -1084,7 +1105,7 @@ hr {
 
 .eight-section .cost .main-text {
   text-align: start;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .footer {
@@ -1158,11 +1179,6 @@ hr {
   margin-bottom: 10px;
 }
 
-.footer .additional-text {
-  color: rgba(0, 0, 0, 0.8);
-  text-align: start;
-}
-
 .footer .caption {
   text-align: start;
   color: rgba(0, 0, 0, 0.75);
@@ -1171,7 +1187,7 @@ hr {
 
 .footer .additional-text {
   text-align: start;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
   margin-bottom: 5px;
 }
 
