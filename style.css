@@ -237,12 +237,20 @@ hr {
   cursor: pointer;
 }
 
-.heder .heder-lang > .sub-title-2 {
-  color: rgba(0, 0, 0, 0.8);
+.heder .heder-lang .lang-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
   font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .heder .heder-lang > .lang {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400;
 }
@@ -256,6 +264,7 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .heder .caption {
@@ -279,6 +288,7 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .heder .phone > span {

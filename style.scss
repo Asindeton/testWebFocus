@@ -50,11 +50,19 @@ hr {
     width: 125px;
     align-items: center;
     cursor: pointer;
-    > .sub-title-2 {
-      color: rgba(0, 0, 0, 0.8);
+    .lang-title {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: normal;
       font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.8);
     }
     > .lang {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 20px;
       color: rgba(0, 0, 0, 0.8);
       font-weight: 400;
     }
@@ -65,6 +73,7 @@ hr {
   .button-string {
     align-items: center;
     width: 100%;
+    color: rgba(0, 0, 0, 0.75);
   }
   .caption {
     text-transform: uppercase;
@@ -78,6 +87,7 @@ hr {
   .phone {
     display: flex;
     align-items: center;
+    color: rgba(0, 0, 0, 0.5);
     > span {
       margin-right: 15px;
       margin-left: 14px;
