@@ -84,13 +84,16 @@ const mainDirectionSliderArr = [
     {'img':"./assets/img/Rectangle109.png"},
     {'img':"./assets/img/Rectangle108.png"},
 ]
+let startMovePosition = 0;
 let mainSliderCounter = 0;
 let mainDirectionSliderCounter = 0;
+let isAutoSlider = false;
 
 function setSlider(arr, auto){
     document.querySelector('.first-section').style.background = `url(${arr[mainSliderCounter].img})`
     document.querySelector('.first-section').style.backgroundRepeat = `no-repeat`;
-    document.querySelector('.first-section').style.backgroundPosition = `center`;
+    document.querySelector('.first-section').style.backgroundPosition = `center center`;
+    document.querySelector('.first-section').style.backgroundSize = `cover`;
     document.querySelector('.first-section__text-title').innerHTML = `${arr[mainSliderCounter].title}`
     document.querySelector('.first-section__text-sub-title').innerHTML = `${arr[mainSliderCounter].subtitle}`
     document.querySelector('.slider-btn-link').href = `${arr[mainSliderCounter].link}`
@@ -129,9 +132,28 @@ window.onload = function(){
         document.querySelector('.main-direction__card-wrapper').insertAdjacentHTML('beforeend', drawDirectionCars(mainDirectionCardArr, i))
     }
 }
+
+document.querySelector('.main-direction-slider__content').addEventListener('touchstart', function(e){
+    startMovePosition = e.changedTouches[0].clientX
+})
+document.querySelector('.main-direction-slider__content').addEventListener('touchend', function(e){
+    mainDirectionSliderSmallWindows(startMovePosition, e.changedTouches[0].clientX)
+})
+function mainDirectionSliderSmallWindows(val1, val2){
+    if(val1>val2){
+        mainDirectionSliderCounter == 0?mainDirectionSliderCounter=4:mainDirectionSliderCounter--
+        mainDirectionSlider(mainDirectionSliderArr)
+    }else{
+        mainDirectionSliderCounter == 4?mainDirectionSliderCounter=0:mainDirectionSliderCounter++
+        mainDirectionSlider(mainDirectionSliderArr)
+    }
+}
 function mainDirectionSlider(arr, auto){
     console.log(mainDirectionSliderCounter)
-    document.querySelector('.main-direction-slider__content').style.background = `url(${arr[mainDirectionSliderCounter].img})`    
+    document.querySelector('.main-direction-slider__content').style.background = `url(${arr[mainDirectionSliderCounter].img})`   
+    document.querySelector('.main-direction-slider__content').style.backgroundRepeat = `no-repeat`;
+    document.querySelector('.main-direction-slider__content').style.backgroundPosition = `center center`;
+    document.querySelector('.main-direction-slider__content').style.backgroundSize = `cover`;
     if(auto){
         mainDirectionSliderCounter ==4?mainDirectionSliderCounter=0:mainDirectionSliderCounter++
     }
