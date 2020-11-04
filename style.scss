@@ -3,7 +3,6 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-size: 14px;
 }
 .hamburger-menu {
   display: none;
@@ -841,9 +840,6 @@ hr {
 }
 
 @media (max-width: 1170px) {
-  html {
-    font-size: 13px !important;
-  }
   .line {
     display: none;
   }
@@ -902,9 +898,6 @@ hr {
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 10px !important;
-  }
   .heder {
     .heder-voko {
       display: none;
@@ -1087,6 +1080,10 @@ hr {
       .card {
         width: 50% !important;
         border-left: 10px solid rgba(222, 195, 119, 0.4);
+        .h5 {
+          font-size: 14px;
+          line-height: 20px;
+        }
       }
     }
     .main-text {
@@ -1141,6 +1138,18 @@ hr {
   .first-section__text-title {
     margin-left: 10px;
   }
+  .sixth-section {
+    .card-area {
+      .card {
+        width: 50% !important;
+        padding: 10px;
+        .h5 {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
   .main-slider-control {
     align-items: center;
     justify-content: center;
@@ -1187,6 +1196,19 @@ hr {
       .comments-control__indicator {
         display: none;
       }
+    }
+  }
+  .cooperation-text {
+    height: 400px !important;
+  }
+  .work-time {
+    flex-direction: column !important;
+    .main-text {
+      text-align: center;
+    }
+    .work-time-item {
+      margin-right: 0px;
+      margin-left: 20px;
     }
   }
 }

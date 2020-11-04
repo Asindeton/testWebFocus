@@ -1,7 +1,7 @@
 .h1 {
   font-family: 'Commissioner';
-  /*   font-size: 40px; */
-  font-size: 2.857em;
+  font-size: 40px;
+  /* font-size: 2.857em; */
   font-style: normal;
   font-weight: 400;
   line-height: 50px;
@@ -12,8 +12,8 @@
 
 .h2 {
   font-family: 'Commissioner';
-  /*   font-size: 28px; */
-  font-size: 2em;
+  font-size: 28px;
+  /* font-size: 2em; */
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
@@ -24,8 +24,8 @@
 
 .h3 {
   font-family: 'Commissioner';
-  /* font-size: 26px; */
-  font-size: 1.857em;
+  font-size: 26px;
+  /* font-size: 1.857em; */
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
@@ -36,8 +36,8 @@
 
 .h4 {
   font-family: 'Commissioner';
-  /* font-size: 26px; */
-  font-size: 1.857em;
+  font-size: 26px;
+  /* font-size: 1.857em; */
   font-style: normal;
   font-weight: 400;
   line-height: 45px;
@@ -48,8 +48,8 @@
 
 .h5 {
   font-family: 'Commissioner';
-  /* font-size: 20px; */
-  font-size: 1.428em;
+  font-size: 20px;
+  /* font-size: 1.428em; */
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -60,8 +60,8 @@
 
 .h6 {
   font-family: 'Commissioner';
-  /* font-size: 18px; */
-  font-size: 1.285em;
+  font-size: 18px;
+  /* font-size: 1.285em; */
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
@@ -72,8 +72,8 @@
 
 .sub-title-1 {
   font-family: 'Lato', sans-serif;
-  /* font-size: 17px; */
-  font-size: 1.214em;
+  font-size: 17px;
+  /* font-size: 1.214em; */
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
@@ -84,8 +84,8 @@
 
 .sub-title-2 {
   font-family: 'Lato', sans-serif;
-  /* font-size: 16px; */
-  font-size: 1.142em;
+  font-size: 16px;
+  /* font-size: 1.142em; */
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
@@ -108,8 +108,8 @@
 
 .secondary-text {
   font-family: 'Lato', sans-serif;
-  /* font-size: 14px; */
-  font-size: 1em;
+  font-size: 14px;
+  /* font-size: 1em; */
   font-style: normal;
   font-weight: 300;
   line-height: 25px;
@@ -120,8 +120,8 @@
 
 .additional-text {
   font-family: 'Lato', sans-serif;
-  /* font-size: 13px; */
-  font-size: 0.928em;
+  font-size: 13px;
+  /* font-size: 0.928em; */
   font-style: normal;
   font-weight: 300;
   line-height: 20px;
@@ -132,8 +132,8 @@
 
 .btn-mine {
   font-family: 'Commissioner';
-  /* font-size: 13px; */
-  font-size: 0.928em;
+  font-size: 13px;
+  /* font-size: 0.928em; */
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
@@ -144,8 +144,8 @@
 
 .btn-additional {
   font-family: 'Lato', sans-serif;
-  /* font-size: 12px; */
-  font-size: 0.857em;
+  font-size: 12px;
+  /* font-size: 0.857em; */
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
@@ -167,8 +167,8 @@
 
 .overline {
   font-family: 'Commissioner';
-  /* font-size: 14px; */
-  font-size: 1em;
+  font-size: 14px;
+  /* font-size: 1em; */
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -180,7 +180,6 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-size: 14px;
 }
 
 .hamburger-menu {
@@ -1291,9 +1290,6 @@ hr {
 }
 
 @media (max-width: 1170px) {
-  html {
-    font-size: 13px !important;
-  }
   .line {
     display: none;
   }
@@ -1350,9 +1346,6 @@ hr {
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 10px !important;
-  }
   .heder .heder-voko {
     display: none;
   }
@@ -1571,6 +1564,10 @@ hr {
     width: 50% !important;
     border-left: 10px solid rgba(222, 195, 119, 0.4);
   }
+  .sixth-section .card-area .card .h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
   .sixth-section .main-text {
     width: 100% !important;
   }
@@ -1634,6 +1631,14 @@ hr {
   .first-section__text-title {
     margin-left: 10px;
   }
+  .sixth-section .card-area .card {
+    width: 50% !important;
+    padding: 10px;
+  }
+  .sixth-section .card-area .card .h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
   .main-slider-control {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -1675,6 +1680,22 @@ hr {
   }
   .third-section .comments-control .comments-control__indicator {
     display: none;
+  }
+  .cooperation-text {
+    height: 400px !important;
+  }
+  .work-time {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .work-time .main-text {
+    text-align: center;
+  }
+  .work-time .work-time-item {
+    margin-right: 0px;
+    margin-left: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
