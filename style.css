@@ -1350,7 +1350,6 @@ hr {
     display: none;
   }
   .second-section__wrapper {
-    margin-top: 150px;
     height: auto;
   }
   .introduction {
@@ -1542,6 +1541,14 @@ hr {
   .main-direction-slider img {
     display: none;
   }
+  .main-direction-slider-wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 670px;
+    margin-top: 50px;
+    width: 100%;
+  }
   .third-section {
     height: auto;
   }
@@ -1616,6 +1623,15 @@ hr {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .introduction {
+    margin-top: 150px;
+  }
+  .first-section__text > .h1 {
+    font-size: 30px;
   }
 }
 

@@ -904,7 +904,6 @@ hr {
     }
   }
   .second-section__wrapper {
-    margin-top: 150px;
     height: auto;
   }
   .introduction {
@@ -1062,6 +1061,12 @@ hr {
       display: none;
     }
   }
+  .main-direction-slider-wrapper {
+    align-items: center;
+    height: 670px;
+    margin-top: 50px;
+    width: 100%;
+  }
   .third-section {
     height: auto;
     .partners-area__text {
@@ -1126,6 +1131,16 @@ hr {
   .city-list__wrapper {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media (max-width: 550px) {
+  .introduction {
+    margin-top: 150px;
+  }
+  .first-section__text {
+    > .h1 {
+      font-size: 30px;
+    }
   }
 }
 @media (max-width: 400px) {
